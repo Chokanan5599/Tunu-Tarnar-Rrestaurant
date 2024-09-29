@@ -1,0 +1,922 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    @* <div class="_df_book" source="http:/www.yoursite.com/flipbook.pdf"></div> *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+
+        .mySlides_header {
+            display: none
+        }
+
+
+        /* Slideshow container */
+        .slidesShow_header_container {
+            /* max-width: 1000px; */
+            position: relative;
+            margin: auto;
+        }
+
+
+
+        .set_myslides_header {
+            padding-block: 5rem;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        /* Next & previous buttons */
+        .prev_header, .next_header {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            font-size:50px;
+        }
+
+
+
+        /* Position the "next button" to the right */
+        .next_header {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev_header:hover, .next_header:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+        .prev_Service, .next_Service {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: 0px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            font-size:50px;
+        }
+
+        /* Position the "next button" to the right */
+        .next_Service {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+            .prev_Service:hover, .next_Service:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+
+
+        /* The dots/bullets/indicators */
+        .dot_header {
+            cursor: pointer;
+            height: 10px;
+            width: 10px;
+            margin: 0 2px 2px 2px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+            .dot_header:hover {
+                background-color: #717171;
+            }
+
+        .active_header {
+            background-color: #F39F5A;
+        }
+
+        /* Fading animation */
+        .fade_header {
+            /*    animation-name: fade;
+                    animation-duration: 1.5s; */
+            animation: fade_header 2s;
+        }
+
+        @@keyframes fade_header {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @@media only screen and (max-width: 300px) {
+            .prev_header, .next_header {
+                font-size: 11px
+            }
+        }
+
+
+        /*------------------------ Slides Bar Service---------------------------- */
+
+        .mySlides_3 {
+            display: none
+        }
+
+        /* Slideshow container */
+        .slideshow-container_3 {
+            /* max-width: 1000px; */
+            position: relative;
+            margin: auto;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot_3 {
+            height: 10px;
+            width: 10px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #4E4D4D !important;
+            /* background-color: #6c757d !important; */
+        }
+
+
+
+        /* Fading animation */
+        .fade_3 {
+            /* animation-name: fade; */
+            /* animation-duration: 1.5s; */
+            animation: fadeIn 1.5s !important;
+        }
+
+        @@keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* #region */
+        /*  -------------------------W3Shools Manual Slides left right--------------------------- */
+        .w3-display-left {
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+            -ms-transform: translate(-0%,-50%)
+        }
+
+        .w3-display-right {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(0%,-50%);
+            -ms-transform: translate(0%,-50%)
+        }
+
+        .w3-btn, .w3-button {
+            border: none;
+            display: inline-block;
+            padding: 42px 16px;
+            vertical-align: middle;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            background-color: inherit;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap
+        }
+
+        .w3-btn, .w3-button {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+
+            .w3-disabled, .w3-btn:disabled, .w3-button:disabled {
+                cursor: not-allowed;
+                opacity: 0.3
+            }
+
+
+
+
+        .w3-dropdown-hover:hover > .w3-button:first-child, .w3-dropdown-click:hover > .w3-button:first-child {
+            background-color: #ccc;
+            color: #000
+        }
+
+        .w3-bar-block .w3-dropdown-hover .w3-button, .w3-bar-block .w3-dropdown-click .w3-button {
+            width: 100%;
+            text-align: left;
+            padding: 8px 16px
+        }
+
+        .w3-bar .w3-button {
+            white-space: normal
+        }
+
+        .w3-dropdown-hover.w3-mobile, .w3-dropdown-hover.w3-mobile .w3-btn, .w3-dropdown-hover.w3-mobile .w3-button, .w3-dropdown-click.w3-mobile, .w3-dropdown-click.w3-mobile .w3-btn, .w3-dropdown-click.w3-mobile .w3-button {
+            width: 100%
+        }
+
+        .w3-button:hover {
+            color: #000 !important;
+            background-color: #ccc !important;
+        }
+
+
+        #contact_line, #contact_IG, #contact_fackbook {
+            cursor: pointer;
+        }
+
+        /* #endregion */
+
+        /* --------------- Btn Scroll Down on To ------------------ */
+
+        #Btn_Scroll_Down {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #000;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 32px;
+        }
+
+            #Btn_Scroll_Down:hover {
+                /* background-color: #B16002; */
+            }
+            ul{
+            margin-bottom: 0rem;
+            }
+
+
+
+        @@media (width < 480px) {
+            .prev_Service, .next_Service {
+                margin-top: -315px;
+                font-size: 30px;
+            }
+
+            .nav-links {
+                gap:20PX;
+            }
+
+            .prev_header, .next_header {
+                font-size:30px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--Section Header Slides Show Image-->
+    @*  <header class="slideshow" id="home">
+    <div class="section__container header__container">
+    <div>
+    <br />
+    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+    </div>
+    <button class="btn" style="color: #fbdfc4;">Reserve the table.</button>
+    </div>
+
+
+
+    </header> *@
+
+    <div class="slidesShow_header_container">
+        <div class="mySlides_header fade_header set_myslides_header" style="background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ), url('Reference/assets/background/b1.jpg')">
+            @* <img src="~/reference/assets/background/b1.jpg" style="width:100%;"/> *@
+            <div class="section__container header__container">
+                <div>
+                    <br />
+                    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+                </div>
+                <button class="btn" style="color: #fbdfc4;" id="reserve_table_Header_1">Reserve the table.</button>
+            </div>
+            <div class="" style="text-align:center;">
+                <span class="dot_header active " onclick="currentSlide_header(1)"></span>
+                <span class="dot_header " onclick="currentSlide_header(2)"></span>
+                <span class="dot_header " onclick="currentSlide_header(3)"></span>
+                <span class="dot_header " onclick="currentSlide_header(4)"></span>
+                <span class="dot_header " onclick="currentSlide_header(5)"></span>
+            </div>
+        </div>
+        <div class="mySlides_header fade_header set_myslides_header" style="background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ), url('Reference/assets/background/b5.jpg')">
+            @* <img src="~/reference/assets/background/b2.jpg" style="width:100%;" /> *@
+            <div class="section__container header__container">
+                <div>
+                    <br />
+                    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+                </div>
+                <button class="btn" style="color: #fbdfc4;" id="reserve_table_Header_2">Reserve the table.</button>
+            </div>
+            <div class="" style="text-align:center;">
+                <span class="dot_header " onclick="currentSlide_header(1)"></span>
+                <span class="dot_header active " onclick="currentSlide_header(2)"></span>
+                <span class="dot_header " onclick="currentSlide_header(3)"></span>
+                <span class="dot_header " onclick="currentSlide_header(4)"></span>
+                <span class="dot_header " onclick="currentSlide_header(5)"></span>
+            </div>
+        </div>
+        <div class="mySlides_header fade_header set_myslides_header" style="background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ), url('Reference/assets/background/b4.jpg')">
+            @* <img src="~/reference/assets/background/b3.jpg" style="width:100%;" /> *@
+            <div class="section__container header__container">
+                <div>
+                    <br />
+                    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+                </div>
+                <button class="btn" style="color: #fbdfc4;" id="reserve_table_Header_3">Reserve the table.</button>
+            </div>
+            <div class="" style="text-align:center;">
+                <span class="dot_header " onclick="currentSlide_header(1)"></span>
+                <span class="dot_header " onclick="currentSlide_header(2)"></span>
+                <span class="dot_header active " onclick="currentSlide_header(3)"></span>
+                <span class="dot_header " onclick="currentSlide_header(4)"></span>
+                <span class="dot_header " onclick="currentSlide_header(5)"></span>
+            </div>
+
+        </div>
+        <div class="mySlides_header fade_header set_myslides_header" style="background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ), url('Reference/assets/background/b3.jpg')">
+            @* <img src="~/reference/assets/background/b4.jpg" style="width:100%;" /> *@
+            <div class="section__container header__container">
+                <div>
+                    <br />
+                    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+                </div>
+                <button class="btn" style="color: #fbdfc4;" id="reserve_table_Header_4">Reserve the table.</button>
+            </div>
+            <div class="" style="text-align:center;">
+                <span class="dot_header " onclick="currentSlide_header(1)"></span>
+                <span class="dot_header " onclick="currentSlide_header(2)"></span>
+                <span class="dot_header " onclick="currentSlide_header(3)"></span>
+                <span class="dot_header active " onclick="currentSlide_header(4)"></span>
+                <span class="dot_header " onclick="currentSlide_header(5)"></span>
+            </div>
+        </div>
+        <div class="mySlides_header fade_header set_myslides_header" style="background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ), url('Reference/assets/background/b2.jpg')">
+            @* <img src="~/reference/assets/background/b5.jpg" style="width:100%;" /> *@
+            <div class="section__container header__container">
+                <div>
+                    <br />
+                    <h1 style="padding-top:50px;">Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+                </div>
+                <button class="btn" style="color: #fbdfc4;" id="reserve_table_Header_5">Reserve the table.</button>
+            </div>
+            <div class="" style="text-align:center;">
+                <span class="dot_header " onclick="currentSlide_header(1)"></span>
+                <span class="dot_header " onclick="currentSlide_header(2)"></span>
+                <span class="dot_header " onclick="currentSlide_header(3)"></span>
+                <span class="dot_header " onclick="currentSlide_header(4)"></span>
+                <span class="dot_header active " onclick="currentSlide_header(5)"></span>
+            </div>
+        </div>
+        <a class="prev_header" onclick="plusSlides_header(-1)">❮</a>
+        <a class="next_header" onclick="plusSlides_header(1)">❯</a>
+
+
+    </div>
+
+
+    <section class="about" id="about" style="background-color: #B16002;">
+        <div class="section__container about__container">
+
+            <div class="about__content">
+                <img src="~/Reference/assets/image/section2/mixphoto.png" alt="about" />
+            </div>
+
+            <div class="about__content">
+                <h3 class="section__header" style="color: white;">
+                    Discover your new favorite place
+                    Where exquisite taste meets
+                    exceptional quality.
+                </h3>
+                <p class="section__description" style="color: white; font-size:.9rem; letter-spacing: -0.3px; font-size-adjust: 0.42; ">
+                    Our restaurant offers a unique blend of cozy charm and luxurious elegance,
+                    specializing in Italian-fusion cuisine. Enjoy every moment with our crafted dishes
+                    and attentive service. Our extensive wine cellar features a curated selection
+                    of premium wines from around the world.
+                </p>
+                <p class="section__description" style="color: white; font-size:.9rem; letter-spacing: -0.3px; font-size-adjust: 0.42;">
+                    Whether you're joining us for lunch or dinner or hosting a private event
+                    in our VIP rooms, we provide impeccable service at an affordable price.
+                    From intimate dinners to grand celebrations, we’re here to make every
+                    occasion unforgettable, with special promotions for corporate and
+                    group bookings.
+                </p>
+                <button class="btn" id="reserve_table_1">Reserve the table.</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="menu">
+        <div class="section__container booking__container">
+            <form action="">
+                <div class="input__group">
+                    <!-- <label for="arrival"></label>
+                      <input type="text" placeholder="Your Arrival Date" /> -->
+                </div>
+                <div class="input__group">
+                    <h1 style="color: white;  transform: scaleX(0.7) !important;">Our Menu</h1>
+                </div>
+                <div class="input__group">
+                    <!-- <label for="guests">Guests</label>
+                      <input type="text" placeholder="No Of Guests" /> -->
+                    <a class="btn" style=" background-color: #B16002;" id="food_menu">Food</a>
+                    <a class="btn" style=" background-color: #B16002;" id="wines_Drinks_menu">Wines and Drinks</a>
+                </div>
+                <button class="btn"></button>
+            </form>
+        </div>
+    </section>
+
+    <div class="slideshow-container_3" id="service">
+        <div class="mySlides_3 mySlides_manual fade_3">
+            <section class="" style="background-color: bisque;">
+                <div class="section__container intro__container" style="background-color: bisque;">
+                    <div class="intro__cotent">
+                        <img src="~/reference/assets/image/section2/service/DSC09360.jpg" />
+                        <div style="text-align:center;">
+                            <span class="dot_3" onclick="currentSlide(1)"></span>
+                            <span class="dot_3" onclick="currentSlide(2)"></span>
+                            <span class="dot_3" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                    <div class="intro__cotent">
+                        <!-- <p class="section__subheader">INTRO VIDEO</p> -->
+                        <h2 class="section__header" style="color: #B16002;">
+                            We provides a space
+                            for you privacy.
+                        </h2>
+
+                        <p class="section__description" style="color: #000000; font-size-adjust: 0.42;">
+                            We have three VIP rooms, each with a capacity of 6-8 people,
+                            perfect for customers seeking a private space to celebrate their success
+                            or enjoy quality time with family and friends. Equipped with TV conference
+                            facilities, the rooms are also ideal for your important meeting.
+                        </p>
+                        <p class="section__description" style="color: #000000; font-size-adjust: 0.42;">
+                            Please feel free to ask our staff for assistance in using the VIP rooms.
+                        </p>
+                        <!-- <button class="btn">Book Now</button> -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="mySlides_3 mySlides_manual fade_3">
+            <section class="" style="background-color: bisque;">
+                <div class="section__container intro__container" style="background-color: bisque;">
+                    <div class="intro__cotent">
+                        <img src="~/Reference/assets/image/section2/service/DSC09664.jpg" alt="about" />
+                        <div style="text-align:center;">
+                            <span class="dot_3" onclick="currentSlide(1)"></span>
+                            <span class="dot_3" onclick="currentSlide(2)"></span>
+                            <span class="dot_3" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                    <div class="intro__cotent">
+                        <!-- <p class="section__subheader">INTRO VIDEO</p> -->
+                        <h2 class="section__header" style="color: #B16002;">
+                            Your party,
+                            Reserve your own space for a big day.
+                        </h2>
+
+                        <p class="section__description" style="color: #000000; font-size-adjust: 0.42;">
+                            We offer a choice of areas, including a private zone for group dining or the option to reserve
+                            the entire restaurant. We can accommodate special requests for group services if needed.
+                            Please speak with our staff for more details.
+                        </p>
+                        <!-- <button class="btn">Book Now</button> -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="mySlides_3 mySlides_manual fade_3">
+            <section class="" style="background-color: bisque;">
+                <div class="section__container intro__container" style="background-color: bisque;">
+                    <div class="intro__cotent">
+                        <img src="~/Reference/assets/image/section2/service/DSC03848.jpg" alt="about" />
+                        <div style="text-align:center;">
+                            <span class="dot_3" onclick="currentSlide(1)"></span>
+                            <span class="dot_3" onclick="currentSlide(2)"></span>
+                            <span class="dot_3" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                    <div class="intro__cotent">
+                        <h2 class="section__header" style="color: #B16002;">
+                            Special night with special guests,
+                            come and enjoy our exclusive concert.
+                        </h2>
+
+                        <p class="section__description" style="color: #000000; font-size-adjust: 0.42;">
+                            We host concert nights and meet-and-greet events with celebrities throughout the year.
+                            Enjoy our food and drinks in an atmosphere of excitement and joy. Stay updated on
+                            what's happening at our restaurant by following us on social media.
+                        </p>
+                        <!-- <button class="btn">Book Now</button> -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        @*  <div style="text-align:center;">
+        <span class="dot_3" onclick="currentSlide(1)"></span>
+        <span class="dot_3" onclick="currentSlide(2)"></span>
+        <span class="dot_3" onclick="currentSlide(3)"></span>
+        </div> *@
+        @*  <button class="w3-button w3-black w3-display-left" onclick="plusSlides(-1)"> &#x276E; </button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusSlides(1)"> &#x276F; </button> *@
+        @*  <a class="prev_header" onclick="plusSlides(-1)">❮</a>
+        <a class="next_header" onclick="plusSlides(1)">❯</a> *@
+
+        <a class="prev_Service" onclick="plusSlides(-1)">❮</a>
+        <a class="next_Service" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <section class="room__container" id="reservation" style="padding-block: 1rem; background-color:white;">
+        <div>
+        </div>
+        <p class="section__subheader">
+            <!-- Open <br> Daily -->
+            <center><img src="~/Reference/assets/image/section2/Reservation/daily.png" alt="about" class="reservation_image_Size" /></center>
+        </p>
+
+        <h2 class="test_font">Lunch 11.00 - 15.00 hrs.</h2>
+        <h2 class="test_font ">Dinner 17.00 - 24.00 hrs.</h2>
+        <br>
+        <center> <button class="btn" style="align-items: center; color: #fbdfc4" id="reserve_table_2">Reserve the table.</button></center>
+        <br>
+        <h2 class="test_font">please call <a href="tel:0962462493" style="color:#B16002; font-weight:800 !important;"><b>096-246-2493 </b> </a>for table reservations or</h2>
+        <br>
+        <!-- <h2 class="test_font">Chat to our admin via Line Official</h2> -->
+        <center> <button class="btn" style="align-items: center;  color: #fbdfc4;" id="line_Official">Chat to our admin via Line Official</button></center>
+        <br>
+
+        <h2 class="test_font ">to discuss any special requirements prior to your arrival.</h2>
+
+        <!-- <div class="room__grid">
+          <div class="room__card">
+            <img src="assets/room-1.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Deluxe Suite</h4>
+                <p>Well-appointed rooms designed for guests who desire a more.</p>
+              </div>
+              <h3>$399<span>/night</span></h3>
+            </div>
+          </div>
+          <div class="room__card">
+            <img src="assets/room-2.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Family Suite</h4>
+                <p>Consist of multiple rooms and a common living area.</p>
+              </div>
+              <h3>$599<span>/night</span></h3>
+            </div>
+          </div>
+          <div class="room__card">
+            <img src="assets/room-3.jpg" alt="room" />
+            <div class="room__card__details">
+              <div>
+                <h4>Luxury Penthouse</h4>
+                <p>
+                  Top-tier accommodations usually on the highest floors of a
+                  hotel.
+                </p>
+              </div>
+              <h3>$799<span>/night</span></h3>
+            </div>
+          </div>
+        </div> -->
+    </section>
+
+    <section class="about" id="venue" style="background-color: #B16002;">
+        <div class="section__container about__container_map" style="padding: .5rem .5rem !important;">
+
+            <div class="">
+                <img src="~/Reference/assets/image/section2/Venue/Map_Tunu.png" alt="about" />
+            </div>
+            <div class="vl"></div>
+            <div class="">
+                <div>
+                    <img src="~/Reference/assets/Logo/logo_1.png" alt="about" style="width: 35%;" />
+                </div>
+                <h3 class="section__header" style="color: white;">
+                    <!-- <img src="assets/Logo/logo_1.png" width="25%;" alt="about" /> -->
+                </h3>
+                <p class="section__description" style="color: white;">
+                    <b>
+                        48 Soi Lat Phrao 48, Samsen Nok,<br>
+                        Huai Khwang, Bangkok 10240
+                    </b>
+                </p>
+                <p class="section__description" style="color: white; font-size-adjust: 0.42;">
+                    200 m. from MRT Phawana (Yellow Line)
+                    Parking space available.
+                </p>
+                <button class="btn" id="map_Tunu_Tarnar" style="color:#fbdfc4;">See on Google Map</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class=" footer__container" style="padding: 60px 0px 40px 0px;">
+            <div class="footer__col">
+                <div class="footer__links" style="padding-top: 1.5rem; padding-bottom:0px;  color: #B16002; transform: scaleX(0.7) !important; ">
+                    <h2 style=" display:flex; justify-content:end; padding-bottom:0px; font-size:3rem; margin-bottom:0rem;">Contact</h2>
+                    <h2 style=" display:flex; justify-content:end; font-size:3rem; margin-bottom:0rem;">Us</h2>
+
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <div class="footer__links">
+
+                    <a href="tel:0962462493">
+                        <li>
+                            <span>
+                                <img src="~/Reference/assets/image/section2/Contect/Asset 1.png">
+                            </span>
+                            <div>
+                                <p style="color: #B16002; font-size-adjust: 0.5; margin-bottom: 0 !important;">096-246-2493</p>
+                            </div>
+                        </li>
+                    </a>
+
+                    <li id="contact_fackbook">
+                        <span>
+                            <img src="~/Reference/assets/image/section2/Contect/Asset 2.png">
+                        </span>
+                        <div>
+                            <p style="color: #B16002; font-size-adjust: 0.5; margin-bottom: 0 !important;">tunutarnar</p>
+                        </div>
+                    </li>
+
+                    <li id="contact_IG">
+                        <span>
+                            <img src="~/Reference/assets/image/section2/Contect/Asset 3.png">
+                        </span>
+                        <div>
+                            <p style="color: #B16002;  font-size-adjust: 0.5; margin-bottom: 0 !important;">tunutarnar</p>
+                        </div>
+                    </li>
+
+                    <li id="contact_line">
+                        <span>
+                            <img src="~/Reference/assets/image/section2/Contect/Asset 4.png">
+                        </span>
+                        <div>
+                            <p style="color: #B16002;  font-size-adjust: 0.5; margin-bottom: 0 !important;">@@tunutarnar</p>
+                        </div>
+                    </li>
+
+                </div>
+            </div>
+
+        </div>
+        @* <div class="footer__bar" style="color: #B16002;">
+        ©2024 Tunu Tarnar Company Limited, All Rights Reserved.
+        </div> *@
+    </footer>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="~/Reference/main.js"></script>
+
+    <script>
+        document.getElementById("reserve_table_Header_1").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+        document.getElementById("reserve_table_Header_2").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+        document.getElementById("reserve_table_Header_3").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+        document.getElementById("reserve_table_Header_4").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+        document.getElementById("reserve_table_Header_5").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+
+        document.getElementById("reserve_table_1").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+
+        document.getElementById("reserve_table_2").addEventListener("click", function () {
+            window.open("https://book.chope.co/booking?rid=tunutarnar2404bkk&source=rest_line.tunutarnar2404bkk&smart=1");
+        });
+        document.getElementById("line_Official").addEventListener("click", function () {
+            window.open("https://line.me/ti/p/@@tunutarnar");
+        });
+        document.getElementById("map_Tunu_Tarnar").addEventListener("click", function () {
+            window.open("https://www.google.com/maps/place/TUNU+TARNAR+Restaurant/@@13.7982064,100.5871983,15z/data=!4m6!3m5!1s0x30e29d5f7731c2bd:0x128af55a5e5fca68!8m2!3d13.7982064!4d100.5871983!16s%2Fg%2F11l6y3wd65?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D");
+        });
+        document.getElementById("contact_fackbook").addEventListener("click", function () {
+            window.open("https://www.facebook.com/tunutarnar/");
+        });
+        document.getElementById("contact_IG").addEventListener("click", function () {
+            window.open("https://www.instagram.com/tunutarnar/");
+        });
+        document.getElementById("contact_line").addEventListener("click", function () {
+            window.open("https://line.me/ti/p/@@tunutarnar");
+        });
+
+
+
+        document.getElementById("food_menu").addEventListener("click", function () {
+            window.open("https://drive.google.com/file/d/1E4H7sT_ynw4UxHrkQZu18VN7YOeida6s/view");
+        });
+
+        document.getElementById("wines_Drinks_menu").addEventListener("click", function () {
+            window.open("https://drive.google.com/file/d/1E4H7sT_ynw4UxHrkQZu18VN7YOeida6s/view");
+        });
+
+
+
+        //Slides Page Image Header
+        var timeOut_header;
+        let slideIndex_header = 1;
+        let slideIndex_headerauto = 0;
+        showSlides_Header(slideIndex_header);
+        function plusSlides_header(n) {
+            showSlides_Header(slideIndex_header += n);
+        }
+        function currentSlide_header(n) {
+
+            showSlides_Header(slideIndex_header = n);
+        }
+        function showSlides_Header(n) {
+            debugger;
+            let i;
+            let slides_header = document.getElementsByClassName("mySlides_header");
+            let dots_header = document.getElementsByClassName("dot_header");
+            if (n > slides_header.length) { slideIndex_header = 1 }
+            if (n < 1) { slideIndex_header = slides_header.length }
+            for (i = 0; i < slides_header.length; i++) {
+                slides_header[i].style.display = "none";
+            }
+            for (i = 0; i < dots_header.length; i++) {
+                dots_header[i].className = dots_header[i].className.replace(" active_header ", "");
+            }
+            slides_header[slideIndex_header - 1].style.display = "block";
+            dots_header[slideIndex_header - 1].className += " active_header ";
+            clearTimeout(timeOut_header);
+            showSlides_Header_auto();
+        }
+        function showSlides_Header_auto() {
+
+            let h;
+            let slides_header_auto = document.getElementsByClassName("mySlides_header");
+            let dots_header_auto = document.getElementsByClassName("dot_header");
+            for (h = 0; h < slides_header_auto.length; h++) {
+                slides_header_auto[h].style.display = "none";
+            }
+            slideIndex_headerauto++;
+            if (slideIndex_headerauto > slides_header_auto.length) { slideIndex_headerauto = 1 }
+            for (h = 0; h < dots_header_auto.length; h++) {
+                dots_header_auto[h].className = dots_header_auto[h].className.replace(" active_header ", "");
+            }
+            slides_header_auto[slideIndex_headerauto - 1].style.display = "block";
+            dots_header_auto[slideIndex_headerauto - 1].className += " active_header ";
+            timeOut_header = setTimeout(showSlides_Header_auto, 5000);
+
+        }
+
+        // Slides Page Service
+        var timeOut;
+        let slideIndex = 1;
+        let slideIndex_auto = 0;
+        showSlides(slideIndex);
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides_3");
+            let dots = document.getElementsByClassName("dot_3");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            clearTimeout(timeOut);
+            showSlides_auto();
+        }
+
+        function showSlides_auto() {
+            let j;
+            let slides_auto = document.getElementsByClassName("mySlides_3");
+            let dots_auto = document.getElementsByClassName("dot_3");
+            for (j = 0; j < slides_auto.length; j++) {
+                slides_auto[j].style.display = "none";
+            }
+            slideIndex_auto++;
+            if (slideIndex_auto > slides_auto.length) { slideIndex_auto = 1 }
+            for (j = 0; j < dots_auto.length; j++) {
+                dots_auto[j].className = dots_auto[j].className.replace(" active", "");
+            }
+            slides_auto[slideIndex_auto - 1].style.display = "block";
+            dots_auto[slideIndex_auto - 1].className += " active";
+
+            timeOut = setTimeout(showSlides_auto, 5000);
+        }
+
+
+
+
+
+        // function Btn Scroll Down on top
+
+        // Get the button
+        let mybutton = document.getElementById("Btn_Scroll_Down");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

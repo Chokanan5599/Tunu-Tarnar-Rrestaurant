@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(10, 1fr);
+            gap: 1px;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+        }
+
+        .grid-item {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <!-- generate the grid items dynamically using JavaScript -->
+    </div>
+
+    <script>
+        const gridContainer = document.querySelector('.grid-container');
+
+        // create 100 grid items
+        for (let i = 0; i < 100; i++) {
+            const gridItem = document.createElement('div');
+            gridItem.classList.add('grid-item');
+            gridContainer.appendChild(gridItem);
+        }
+    </script>
+
+</body>
+</html>

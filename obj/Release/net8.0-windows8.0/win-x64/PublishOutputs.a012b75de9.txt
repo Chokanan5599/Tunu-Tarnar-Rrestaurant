@@ -1,0 +1,8 @@
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\TunuTarnar_restaurant.exe
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\appsettings.Development.json
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\appsettings.json
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\wwwroot\Reference\w3.css
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\TunuTarnar_restaurant.dll
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\TunuTarnar_restaurant.deps.json
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\TunuTarnar_restaurant.runtimeconfig.json
+D:\source\repos(SEO)\ESPG_Tunu_Tarnar_Restaurant\Deploy\2024\Sep\26\TunuTarnar_restaurant\obj\Release\net8.0-windows8.0\win-x64\PubTmp\Out\TunuTarnar_restaurant.pdb

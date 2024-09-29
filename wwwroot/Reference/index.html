@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <div class="_df_book" source="http://www.yoursite.com/flipbook.pdf"></div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="Service.css" />
+  <title>Web Design Mastery | Miranda</title>
+  <style>
+    nav {
+      display: flex;
+      /* justify-content: space-between; */
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+    }
+
+    .nav-links {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li {
+      display: inline;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: white;
+    }
+    .vl {
+  border-left: 6px solid white;
+  height: 250px;
+}
+
+    /* Media Query for Mobile Devices */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #5D524C;
+        opacity: 0.8;
+        position: absolute;
+        top: 60px;
+        /* Adjust based on your header height */
+        left: 0;
+        padding-top: 50px;
+        color: white;
+        transition: color .25s linear;
+        transition: background-color .15s linear .1s;
+      }
+
+      .nav-links.active {
+        display: flex;
+        text-align: center;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!--Nav Bar Before-->
+  <!-- <nav>
+      <div class="nav__bar" style="background-color: #B16002; color: white;">
+        <div class="nav__header" >
+          <div class="logo nav__logo">
+            <div>  <img src="assets/Logo/logo_1.png " alt="about" width="500" height="120"/></div>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+
+        <ul class="nav__links" id="nav-links" style="color: white;">
+
+          <li><a href="#about" style="color: white;">About Us</a></li>
+          <li><a href="#room" style="color: white;">Menu</a></li>
+          <li><a href="#feature" style="color: white;">Service</a></li>
+          <li><a href="#menu" style="color: white;">Reservation</a></li>
+          <li><a href="#menu" style="color: white;">Venue</a></li>
+          <li><a href="#news" style="color: white;">Contact</a></li>
+        </ul>
+
+        <ul class="nav__links" id="nav-links" style="color: white;">
+          <li><a href="#news" style="color: white;">Sign In</a></li>
+        </ul>
+      </div>
+    </nav> -->
+
+  <!--Nav Bar After-->
+  <nav style="background-color: #B16002 !important;">
+    <!-- <div class="container-fluid"> -->
+    <div class="logo">
+      <!-- Restaurant -->
+      <img src="assets/Logo/logo_1.png" width="100" height="80" alt="Home">&nbsp;&nbsp;&nbsp;
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#menu">Venue</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      &#9776;
+    </div>
+    <!-- </div> -->
+  </nav>
+  <!--Section Header Slides Show Image-->
+  <header class="slideshow" id="home">
+      <div class="section__container header__container" style="padding-top: 20rem 5rem !important;">
+        <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+        <button class="btn" style="color: #fbdfc4;">Reserve the table.</button>
+      </div>
+  </header>
+
+   <!-- <header class="slideshow-container">
+    
+    <div class="Slides fade img_background1" >
+      <img class="" src="assets/background/b1.jpg" alt="about" />
+      
+      <div class="text"> 
+
+        <div class="Slides_section__container Slides_header__container" style="padding-top: 20rem 5rem !important;">
+          <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+          <button class="btn">Reserve the table.</button>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="Slides fade img_background2">
+      <img src="assets/background/b2.jpg" alt="about" />
+      <div class="text">
+        <div class="Slides_section__container Slides_header__container" style="padding-top: 20rem 5rem !important;">
+          <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+          <button class="btn">Reserve the table.</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Slides fade img_background3">
+      <img src="assets/background/b3.jpg"  alt="about" />
+      <div class="text"> 
+        <div class="Slides_section__container Slides_header__container" style="padding-top: 20rem 5rem !important;">
+          <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+          <button class="btn">Reserve the table.</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Slides fade img_background4">
+      <img src="assets/background/b4.jpg" alt="about" />
+      <div class="text"> 
+        <div class="Slides_section__container Slides_header__container" style="padding-top: 20rem 5rem !important;">
+          <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+          <button class="btn">Reserve the table.</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Slides fade img_background5">
+      <img src="assets/background/b5.jpg" alt="about" />
+      <div class="text">
+        <div class="Slides_section__container Slides_header__container" style="padding-top: 20rem 5rem !important;">
+          <h1>Try our masterpiece dishes,<br />Sip the world’s finest.</h1>
+          <button class="btn">Reserve the table.</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <div class="dots" style="text-align:center;">
+
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+
+      </div>
+
+  </header> -->
+
+
+  <section class="about" id="about" style="background-color: #B16002;">
+    <div class="section__container about__container">
+
+      <div class="about__content">
+        <img src="assets/image/section2/mixphoto.png" alt="about" />
+      </div>
+
+      <div class="about__content">
+        <h3 class="section__header" style="color: white;">Discover your new favorite place
+          Where exquisite taste meets
+          exceptional quality.
+        </h3>
+        <p class="section__description" style="color: white;">
+          Our restaurant ofers a unique blend of cozy charm and luxurious elegance,
+          specializing in Italian-fusion cuisine. Enjoy every moment with our crafted dishes
+          and attentive service. Our extensive wine cellar features a curated selection
+          of premium wines from around the world.
+        </p>
+        <p class="section__description" style="color: white;">
+          Our restaurant ofers a unique blend of cozy charm and luxurious elegance,
+          specializing in Italian-fusion cuisine. Enjoy every moment with our crafted dishes
+          and attentive service. Our extensive wine cellar features a curated selection
+          of premium wines from around the world.
+        </p>
+        <button class="btn">Reserve the table.</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="menu">
+    <div class="section__container booking__container">
+      <form action="">
+        <div class="input__group">
+          <!-- <label for="arrival"></label>
+            <input type="text" placeholder="Your Arrival Date" /> -->
+        </div>
+        <div class="input__group">
+          <h1 style="color: #ffffff;">Our Menu</h1>
+        </div>
+        <div class="input__group">
+          <!-- <label for="guests">Guests</label>
+            <input type="text" placeholder="No Of Guests" /> -->
+          <button class="btn" style="background-color: #B16002;">Food</button>
+          <button class="btn" style="background-color: #B16002;">Wines and Drinks</button>
+        </div>
+        <button class="btn"></button>
+      </form>
+    </div>
+  </section>
+
+
+
+  <section class="" style="background-color: bisque;" id="service">
+    <div class="section__container intro__container" style="background-color: bisque;">
+      <!-- <div class="intro__video">
+          <video src="assets/luxury.mp4" autoplay muted loop></video>
+        </div> -->
+      <div class="intro__cotent">
+        <img src="assets/image/section2/service/DSC09360.jpg" alt="about" />
+      </div>
+
+      <div class="intro__cotent">
+        <!-- <p class="section__subheader">INTRO VIDEO</p> -->
+        <h2 class="section__header" style="color: #B16002;">
+          We provides a space for you privacy.
+        </h2>
+
+        <p class="section__description" style="color: #000000;">
+          We have three VIP rooms, each with a capacity of 6-8 people,
+          perfect for customers seeking a private space to celebrate their success
+          or enjoy quality time with family and friends. Equipped with TV conference
+          facilities, the rooms are also ideal for your important meeting.
+        </p>
+        <p class="section__description" style="color: #000000;">Please feel free to ask our staff for assistance in
+          using the VIP rooms.</p>
+        <!-- <button class="btn">Book Now</button> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="" style="background-color: bisque;" id="service">
+    <div class="section__container intro__container" style="background-color: bisque;">
+      <!-- <div class="intro__video">
+          <video src="assets/luxury.mp4" autoplay muted loop></video>
+        </div> -->
+      <div class="intro__cotent">
+        <img src="assets/image/section2/service/DSC09664.jpg" alt="about" />
+      </div>
+
+      <div class="intro__cotent">
+        <!-- <p class="section__subheader">INTRO VIDEO</p> -->
+        <h2 class="section__header" style="color: #B16002;">
+          Your party,
+Reserve your own space for a big day.
+        </h2>
+
+        <p class="section__description" style="color: #000000;">
+          We offer a choice of areas, including a private zone for group dining or the option to reserve
+the entire restaurant. We can accommodate special requests for group services if needed.
+Please speak with our staff for more details.
+        </p>
+        <!-- <button class="btn">Book Now</button> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="" style="background-color: bisque;" id="service">
+    <div class="section__container intro__container" style="background-color: bisque;">
+      <!-- <div class="intro__video">
+          <video src="assets/luxury.mp4" autoplay muted loop></video>
+        </div> -->
+      <div class="intro__cotent">
+        <img src="assets/image/section2/service/DSC03848.jpg" alt="about" />
+      </div>
+
+      <div class="intro__cotent">
+        <!-- <p class="section__subheader">INTRO VIDEO</p> -->
+        <h2 class="section__header" style="color: #B16002;">
+          Special night with special guests,
+come and enjoy our exclusive concert.
+        </h2>
+
+        <p class="section__description" style="color: #000000;">
+          We host concert nights and meet-and-greet events with celebrities throughout the year.
+Enjoy our food and drinks in an atmosphere of excitement and joy. Stay updated on
+what's happening at our restaurant by following us on social media.
+        </p>
+        <!-- <button class="btn">Book Now</button> -->
+      </div>
+    </div>
+  </section>
+
+  <div class="wrapper">
+    <div class="slider-wrap">
+    
+      <div id="cycle-slideshow1" class="cycle-slideshow"
+        data-cycle-fx="scrollHorz"
+        data-cycle-timeout="5000"
+        data-cycle-slides="> div"
+        data-cycle-prev="#cycle-prev"
+        data-cycle-next="#cycle-next"
+        data-cycle-pager="#custom-pager"
+        >
+    
+    
+          <div class="cycle-slideshow--slide">
+            <a href="#!" title="Responsive design for almost all devices" >
+              <img src="assets/image/section2/service/DSC03848.jpg" alt="Responsive design for almost all devices" class="cycle-slideshow_image" /></a>
+            <h2><a href="#!">Responsive design for almost all devices</a></h2>
+            <span>Page 1</span>
+          </div>
+    
+          <div class="cycle-slideshow--slide">
+            <a href="#!" title="Ease of use" >
+              <img src="assets/image/section2/service/DSC03848.jpg" alt="Ease of use" class="cycle-slideshow_image" /></a>
+            <h2><a href="#!">Ease of use and API</a></h2>
+            <span>Page 2</span>
+          </div> 
+    
+        </div><!-- /.cycle-slideshow -->
+    
+        <!-- prev/next links -->
+        <div id="cycle-prev" class="cycle-arrows cycle-prev"></div>
+        <div id="cycle-next" class="cycle-arrows cycle-next"></div>
+    
+    
+          <!-- empty element for pager links -->
+    
+    </div>
+  </div>
+    
+  
+
+
+
+
+  <section class="room__container" id="reservation" style="padding-block: 1rem;">
+    <div>
+
+    </div>
+    <p class="section__subheader">
+      <!-- Open <br> Daily -->
+      <center><img src="assets/image/section2/Reservation/daily.png" alt="about"  class="reservation_image_Size" /></center>
+    </p>
+    
+    <h2 class="test_font">Lunch 11.00 - 15.00 hrs.</h2>
+    <h2 class="test_font ">Dinner 17.00 - 24.00 hrs.</h2>
+    <br>
+    <center> <button class="section__header btn" style="align-items: center; color: #fbdfc4">Reserve the table.</button></center>
+    <br>
+    <h2 class="test_font">please call <b>096-246-2493 </b>for table reservations or</h2>
+    <br>
+    <!-- <h2 class="test_font">Chat to our admin via Line Official</h2> -->
+    <center> <button class="section__header btn" style="align-items: center;  color: #fbdfc4;">Chat to our admin via Line Official</button></center>
+    <br>
+
+    <h2 class="test_font ">to discuss any special requirements prior to your arrival.</h2>
+
+    <!-- <div class="room__grid">
+      <div class="room__card">
+        <img src="assets/room-1.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Deluxe Suite</h4>
+            <p>Well-appointed rooms designed for guests who desire a more.</p>
+          </div>
+          <h3>$399<span>/night</span></h3>
+        </div>
+      </div>
+      <div class="room__card">
+        <img src="assets/room-2.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Family Suite</h4>
+            <p>Consist of multiple rooms and a common living area.</p>
+          </div>
+          <h3>$599<span>/night</span></h3>
+        </div>
+      </div>
+      <div class="room__card">
+        <img src="assets/room-3.jpg" alt="room" />
+        <div class="room__card__details">
+          <div>
+            <h4>Luxury Penthouse</h4>
+            <p>
+              Top-tier accommodations usually on the highest floors of a
+              hotel.
+            </p>
+          </div>
+          <h3>$799<span>/night</span></h3>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+
+
+  <section class="about" id="about" style="background-color: #B16002;">
+    <div class=" about__container_map" style="padding: .5rem .5rem !important;">
+
+      <div class="">
+        <img src="assets/image/section2/Venue/Map_Tunu.png" alt="about" />
+      </div>
+      <div class="vl"></div>
+      <div class="">
+        <div>
+          <img src="assets/Logo/logo_1.png" alt="about" style="width: 20%;" />
+        </div>
+        <h3 class="section__header" style="color: white;">
+          <!-- <img src="assets/Logo/logo_1.png" width="25%;" alt="about" /> -->
+        </h3>
+        <p class="section__description" style="color: white;">
+          <b>48 Soi Lat Phrao 48, Samsen Nok,<br>
+            Huai Khwang, Bangkok 10240</b>
+        </p>
+        <p class="section__description" style="color: white;">
+          200 m. from MRT Phawana (Yellow Line)
+            Parking space available.
+        </p>
+        <button class="btn" id="map_Tunu_Tarnar" style="color:#fbdfc4;">See on Google Map</button>
+      </div>
+    </div>
+  </section>
+
+<!-- 
+  <section class="section__container feature__container" id="feature">
+    <p class="section__subheader">FACILITIES</p>
+    <h2 class="section__header">Core Features</h2>
+    <div class="feature__grid">
+      <div class="feature__card">
+        <span><i class="ri-thumb-up-line"></i></span>
+        <h4>Have High Rating</h4>
+        <p>
+          We take pride in curating a selection of hotels that consistently
+          receive high ratings and positive reviews.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-time-line"></i></span>
+        <h4>Quite Hours</h4>
+        <p>
+          We understand that peace and uninterrupted rest are essential for a
+          rejuvenating experience.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-map-pin-line"></i></span>
+        <h4>Best Location</h4>
+        <p>
+          At our hotel booking website, we take pride in offering
+          accommodations in the most prime and sought-after locations.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-close-circle-line"></i></span>
+        <h4>Free Cancellation</h4>
+        <p>
+          We understand that travel plans can change unexpectedly, which is
+          why we offer the flexibility of free cancellation.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-wallet-line"></i></span>
+        <h4>Payment Options</h4>
+        <p>
+          Our hotel booking website offers a range of convenient payment
+          options to suit your preferences.
+        </p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-coupon-line"></i></span>
+        <h4>Special Offers</h4>
+        <p>
+          Whether you're planning a romantic getaway, or a business trip, our
+          carefully curated special offers cater to all your needs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="section__container menu__container">
+      <div class="menu__header">
+        <div>
+          <p class="section__subheader">MENU</p>
+          <h2 class="section__header">Our Food Menu</h2>
+        </div>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <ul class="menu__items">
+        <li>
+          <img src="assets/menu-1.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Fggs & Bacon</h4>
+            <p>
+              It is a culinary innovation that puts a unique spin on the
+              beloved breakfast combination.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-2.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Tea or Coffee</h4>
+            <p>
+              A classic choice for your daily dose of comfort and calmness.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-3.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Chia Oatmeal</h4>
+            <p>
+              Our Chia Oatmeal is a wholesome nutrient-packed breakfast
+              delight.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-4.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Fruit Parfait</h4>
+            <p>
+              Our Fruit Parfait is a delightful culinary masterpiece of
+              freshness and flavor.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-5.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Marmalade Selection</h4>
+            <p>
+              Our Marmalade Selection is a delectable medley of vibrant,
+              handcrafted citrus preserves.
+            </p>
+          </div>
+        </li>
+        <li>
+          <img src="assets/menu-6.jpg" alt="menu" />
+          <div class="menu__details">
+            <h4>Cheese Plate</h4>
+            <p>
+              Our cheese plate is a masterpiece that celebrates rich and
+              diverse world of cheeses.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="menu__images">
+        <img src="assets/menu-7.jpg" alt="menu" />
+        <img src="assets/menu-8.jpg" alt="menu" />
+        <img src="assets/menu-9.jpg" alt="menu" />
+      </div>
+      <ul class="menu__banner">
+        <li>
+          <span><i class="ri-file-text-line"></i></span>
+          <h4>84k</h4>
+          <p>Projects are Completed</p>
+        </li>
+        <li>
+          <span><i class="ri-user-line"></i></span>
+          <h4>10M</h4>
+          <p>Active Around World</p>
+        </li>
+        <li>
+          <span><i class="ri-function-line"></i></span>
+          <h4>02k</h4>
+          <p>Categories Served</p>
+        </li>
+        <li>
+          <span><i class="ri-lightbulb-flash-line"></i></span>
+          <h4>100M</h4>
+          <p>Ideas Raised Funds</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section__container news__container" id="news">
+    <div class="news__header">
+      <div>
+        <p class="section__subheader">BLOG</p>
+        <h2 class="section__header">News Feeds</h2>
+      </div>
+      <div class="section__nav">
+        <span><i class="ri-arrow-left-line"></i></span>
+        <span><i class="ri-arrow-right-line"></i></span>
+      </div>
+    </div>
+    <div class="news__grid">
+      <div class="news__card">
+        <img src="assets/news-1.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>25th March 2022</p>
+          <p>By Emily</p>
+        </div>
+        <h4>Exploring Local Culinary Gems: A Foodie's Guide.</h4>
+        <p>
+          Join Emily as she takes you on a gastronomic adventure through the
+          neighborhood surrounding our hotel.
+        </p>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-2.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>15th June 2022</p>
+          <p>By David</p>
+        </div>
+        <h4>Balancing Mind, Body, and Soul at Our Hotel.</h4>
+        <p>
+          Discover holistic spa treatments, fitness facilities, and
+          mindfulness practices that will leave you feeling refreshed.
+        </p>
+      </div>
+      <div class="news__card">
+        <img src="assets/news-3.jpg" alt="news" />
+        <div class="news__card__title">
+          <p>08th August 2022</p>
+          <p>By Sarah</p>
+        </div>
+        <h4>Exploring Outdoor Activities Near Our Hotel.</h4>
+        <p>
+          From hiking and biking trails to water sports and wildlife
+          encounters, she highlights ways to experience nature's wonders.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container" style="padding: 2rem 2rem;">
+      <!-- <div class="footer__col">
+        <div class="logo footer__logo">
+          <div>H</div>
+          <span>Tunu<br />Tarnar</span>
+        </div>
+        <p class="section__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+          laudantium unde. Doloremque eaque debitis laborum labore voluptates
+          iste molestiae consectetur.
+        </p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <div class="footer__links">
+          <li><a href="#">Online Booking</a></li>
+          <li><a href="#">Room Customization</a></li>
+          <li><a href="#">Virtual Tours</a></li>
+          <li><a href="#">Special Offers</a></li>
+          <li><a href="#">Concierge Services</a></li>
+          <li><a href="#">Customer Support</a></li>
+        </div>
+      </div> -->
+
+
+      <div class="footer__col">
+        <div class="footer__links" style="padding-top: 6rem; color: #B16002;">
+          <h1>Contact <br>Us</h1>
+         
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <div class="footer__links" >
+          <li>
+            <span>
+              <!-- <i class="ri-phone-fill"></i> -->
+               <img src="assets/image/section2/Contect/Asset 1.png">
+            </span>
+            <div>
+              <p style="color: #B16002;">096-246-2493</p>
+            </div>
+          </li>
+          <li id="contact_fackbook">
+            <span>
+              <img src="assets/image/section2/Contect/Asset 2.png">
+            </span>
+            <div>
+              <p style="color: #B16002;">tunutarnar</p>
+            </div>
+          </li>
+          <li id="contact_IG">
+            <span>
+              <img src="assets/image/section2/Contect/Asset 3.png">
+            </span>
+            <div>
+              <p style="color: #B16002;">tunutarnar</p>
+            </div>
+          </li>
+          <li id="contact_line">
+          <span>
+            <img src="assets/image/section2/Contect/Asset 4.png">
+          </span>
+            <div>
+              <p style="color: #B16002;">@tunutarnar</p>
+            </div>
+          </li>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer__bar" style="color: #B16002;" >
+      ©2024 Tunu Tarnar Company Limited, All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+
+  <script>
+   document.getElementById("map_Tunu_Tarnar").addEventListener("click", function () {
+      window.open("https://www.google.com/maps/place/TUNU+TARNAR+Restaurant/@13.7982064,100.5871983,15z/data=!4m6!3m5!1s0x30e29d5f7731c2bd:0x128af55a5e5fca68!8m2!3d13.7982064!4d100.5871983!16s%2Fg%2F11l6y3wd65?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D");
+    });
+
+    document.getElementById("contact_fackbook").addEventListener("click", function () {
+        window.open("https://www.facebook.com/tunutarnar/");
+    });
+    document.getElementById("contact_IG").addEventListener("click", function () {
+        window.open("https://www.instagram.com/tunu.tarnar_restaurant/?fbclid=IwY2xjawFZ-gFleHRuA2FlbQIxMAABHSqnqPBgH0Q5I5VU7l-nR3SYJKi0c2abSd7L8tMTmmas_ILszVIfkoWspA_aem_QR5sJLNoDI8wfSeWB1h4wghttps://www.instagram.com/explore/locations/143130218894647/tunu-tarnar-restaurant/");
+    });
+    document.getElementById("contact_line").addEventListener("click", function () {
+      window.open("https://line.me/ti/p/@tunutarnar");
+    });
+
+   
+
+
+
+    document.getElementById("hamburger").addEventListener("click", function () {
+      const navLinks = document.querySelector(".nav-links");
+      navLinks.classList.toggle("active");
+    });
+
+
+
+
+  </script>
+</body>
+
+</html>

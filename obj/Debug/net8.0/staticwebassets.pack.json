@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TunuTarnar_restaurant.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TunuTarnar_restaurant.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\README.md",
+      "PackagePath": "staticwebassets\\Reference\\README.md"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\Service.css",
+      "PackagePath": "staticwebassets\\Reference\\Service.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\Slides_Show.css",
+      "PackagePath": "staticwebassets\\Reference\\Slides_Show.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\Logo\\logo_1.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\Logo\\logo_1.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\Logo\\logo_2.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\Logo\\logo_2.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\about-1.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\about-1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\about-2.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\about-2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\about-bg.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\background\\b1.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\background\\b1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\background\\b2.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\background\\b2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\background\\b3.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\background\\b3.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\background\\b4.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\background\\b4.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\background\\b5.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\background\\b5.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\header.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\header.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\Asset 1.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\Asset 1.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\Asset 2.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\Asset 2.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\Asset 3.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\Asset 3.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\Asset 4.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\Asset 4.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\instagram-2.svg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\instagram-2.svg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\line-2.svg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\line-2.svg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Contect\\telephone-symbol-button.svg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Contect\\telephone-symbol-button.svg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Reservation\\daily.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Reservation\\daily.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\Venue\\Map_Tunu.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\Venue\\Map_Tunu.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\mixphoto.png",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\mixphoto.png"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\service\\DSC03848.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\service\\DSC03848.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\service\\DSC09360.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\service\\DSC09360.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\image\\section2\\service\\DSC09664.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\image\\section2\\service\\DSC09664.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\luxury.mp4",
+      "PackagePath": "staticwebassets\\Reference\\assets\\luxury.mp4"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-1.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-2.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-3.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-3.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-4.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-4.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-5.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-5.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-6.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-6.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-7.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-7.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-8.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-8.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\menu-9.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\menu-9.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\news-1.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\news-1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\news-2.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\news-2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\news-3.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\news-3.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\room-1.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\room-1.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\room-2.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\room-2.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\assets\\room-3.jpg",
+      "PackagePath": "staticwebassets\\Reference\\assets\\room-3.jpg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg",
+      "PackagePath": "staticwebassets\\Reference\\close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\index.html",
+      "PackagePath": "staticwebassets\\Reference\\index.html"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\main.js",
+      "PackagePath": "staticwebassets\\Reference\\main.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg",
+      "PackagePath": "staticwebassets\\Reference\\menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\styles.css",
+      "PackagePath": "staticwebassets\\Reference\\styles.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\Reference\\w3.css",
+      "PackagePath": "staticwebassets\\Reference\\w3.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\source\\repos(SEO)\\ESPG_Tunu_Tarnar_Restaurant\\2024\\Sep\\25\\TunuTarnar_restaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TunuTarnar_restaurant.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TunuTarnar_restaurant.props",
+      "PackagePath": "build\\TunuTarnar_restaurant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TunuTarnar_restaurant.props",
+      "PackagePath": "buildMultiTargeting\\TunuTarnar_restaurant.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TunuTarnar_restaurant.props",
+      "PackagePath": "buildTransitive\\TunuTarnar_restaurant.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

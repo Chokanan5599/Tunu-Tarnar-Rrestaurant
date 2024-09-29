@@ -1,0 +1,197 @@
+
+.Slides_section__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+
+.Slides_header__container .section__subheader {
+    color: white;
+  }
+  
+  .Slides_header__container h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 4rem;
+    font-family:  InstrumentSerif-Regular;
+    color: white;
+  }
+
+.Slides{
+    display: none
+}
+
+ /* Slideshow container */
+.slideshow-container{
+    max-width: auto;
+    position: relative;
+    margin: auto;
+}
+
+
+
+.slideshow-container{
+    /* max-width: 1200px; */
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text*/
+
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+/* Number text (1/3 etc)*/
+
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dots{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.dot{
+
+height: 13px;
+width: 13px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+
+.active{
+    background-color: #717171;
+}
+
+/* Fading animation*/
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{
+        opacity: .4
+    }
+    to{
+        opacity: 1
+    }
+}
+  
+
+
+@keyframes fade{
+    from{
+        opacity: .4
+    }
+    
+    to{
+    
+        opacity: 1
+      }
+
+}
+
+/* On smaller screens, decrease text size*/
+@media only screen and (max-width: 300px){
+    .text{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 768px ){
+
+    .Slides_header__container h1 {
+        margin-bottom: 1rem !important;
+        font-size: 0.5rem !important;
+        font-weight: 100 !important;
+        line-height: 2rem!important;
+        color: rgb(255, 255, 255) !important;
+      }
+
+}
+
+@media only screen and (max-width: 1400 ){
+
+    .Slides_header__container h1 {
+        margin-bottom: 1rem !important;
+        font-size: 1rem !important;
+        font-weight: 100 !important;
+        line-height: 2rem!important;
+        color: rgb(255, 255, 255) !important;
+      }
+
+      .slideshow-container{
+        max-width: 1200px;
+    }
+      
+
+}
+
+
+.img_background1 {
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ),url("~/Reference/assets/background/b1.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_background2{
+
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ),url("~/Reference/assets/background/b2.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+
+.img_background3 {
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ),url("~/Reference/assets/background/b3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_background4 {
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ),url("~/Reference/assets/background/b4.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_background5 {
+    padding-block: 5rem;
+    background-image: linear-gradient(rgba(15, 26, 44, 0.5),rgba(15, 26, 44, 0.5) ),url("~/Reference/assets/background/b5.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

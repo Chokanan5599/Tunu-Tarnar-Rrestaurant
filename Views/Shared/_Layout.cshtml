@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @* <title>@ViewData["Title"] - Tunu Tarnar</title> *@
+    <title>Tunu Tarnar</title>
+    <meta name="description" content="Tunu Tarnar, Caper by Dan Bark is the restaurant in bangkok you wish you knew about. Enjoy a casual dining experience with comfort modern American cuisine, crafted cocktails and an extensive wine list.">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TunuTarnar_restaurant.styles.css" asp-append-version="true" />
+
+
+    <link rel="stylesheet" href="~/Reference/styles.css" />
+    <link rel="stylesheet" href="~/Reference/Service.css" />
+
+
+    <style>
+        nav {
+            display: flex;
+             justify-content: space-between; 
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .logo {
+            font-size: 24px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+            gap: 40px;
+        }
+
+            .nav-links li {
+                display: inline;
+            }
+
+            .nav-links a {
+                color: white;
+                text-decoration: none;
+                text-align: center;
+            }
+
+        .hamburger {
+            display: none;
+            font-size: 28px;
+            cursor: pointer;
+            color: white;
+        }
+
+        
+
+
+
+        /* ----------------- new nav Bar*/
+
+       /*  nav{
+         background-color: #B16002 !important;
+         box-shadow: 3px 3px 5px rgb(255,255,255,0.1);
+        }
+        nav ul{
+        width:100%;
+        list-style:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        }
+        nav li {
+            height:50px;
+        }
+
+        nav a{
+            height:100%;
+            padding:0 30px;
+            text-decoration:none;
+            display: flex;
+            align-items:center;
+            color:white;
+        }
+
+        nav a:hover{
+            background-color:#f0f0f0;
+
+        }
+
+        nav li:first-child{
+            margin-right:auto;
+        }
+
+        .sidebar{
+            position:fixed;
+            top:0;
+            right:0;
+            height:100vh;
+            width:250px;
+            z-index:999;
+            background-color:rgb(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+            display:none;
+            flex-direction:column;
+            align-items:flex-start;
+            justify-content:flex-start;
+        }
+
+            .sidebar li{
+                width:100%;
+            }
+
+            .sidebar a{
+                width:100%;
+            }
+
+       
+
+        @@media (width > 800px) {
+            .hideMenubar {
+                display: none;
+            }
+        }
+
+        @@media (max-width: 800px) {
+            .hideOnMobile2 {
+                display: none;
+            }
+        }
+
+
+
+        @@media (max-width: 400px) {
+            .sidebar {
+            width:100%;
+
+            }
+        } */
+
+        .btn_close_right_menu{
+            display:none;
+
+        }
+
+        .active_right {
+            background-color: #6c757d !important;
+        }
+
+
+        /* Media Query for Mobile Devices */
+        @@media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                height:100vh;
+                /* background-color: #5E534D; */
+                opacity: 0.9;
+                position: absolute;
+                top: 0px;
+                left: 0;
+                padding-top: 50px;
+                color: white;
+                transition: color .25s linear;
+
+               
+            }
+
+                .nav-links.active {
+                    display: flex;
+                    justify-content:flex-start;
+                    /* transition: background-color .15s linear .1s; */
+                    font-size:2rem;
+                    /* text-align: center; */
+                }
+
+                .nav-links.active_right {
+                    display: flex;
+                    justify-content: flex-start;
+                    /* transition: background-color .15s linear .1s; */
+                    font-size: 2rem;
+                    /* text-align: center; */
+                }
+
+            .hamburger {
+                display: block;
+                color:black;
+            }
+
+           .display_logo_1{
+                display:none;
+            }
+
+            .logo > .display_logo_2 {
+                display: flex;
+            }
+        }
+
+        @@media (width > 768px) {
+            .btn_close_right_menu {
+                display: none !important;
+            }
+                .nav-links.active {
+                background-color: #B16002;
+            }
+
+            .nav-links.active_right {
+                background-color: #B16002;
+            }
+            .logo > .display_logo_2 {
+                display: none;
+            }
+
+            .logo > .display_logo_1 {
+                display: flex;
+                
+            }
+        }
+
+        p{
+            
+        
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- btn Scroll Down-->
+    <button onclick="topFunction()" id="Btn_Scroll_Down"><b>&#8593</b></button>
+
+
+    <!--Nav Bar After-->
+    <nav style="background-color: #B16002 !important;">
+        <div class="logo" id="logo">
+            <img class="display_logo_1" src="~/Reference/assets/Logo/logo_1.png" width="85" height="65" alt="Home">&nbsp;&nbsp;&nbsp;
+            <img class="display_logo_2" src="~/Reference/assets/Logo/logo_2.png" width="85" height="65" alt="Home">&nbsp;&nbsp;&nbsp;
+        </div>
+        <ul class="nav-links">
+            <li >
+                <a onclick="hideSlidesbar_2()" class="btn_close_right_menu" >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#e8eaed">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a>
+            </li>
+            <li><a href="#about" id="nav_right_menu_About">About Us</a></li>
+            <li><a href="#menu"  id="nav_right_menu_Menu">Menu</a></li>
+            <li><a href="#service" id="nav_right_menu_Service">Service</a></li>
+            <li><a href="#reservation" id="nav_right_menu_Reservation">Reservation</a></li>
+            <li><a href="#venue" id="nav_right_menu_Venue">Venue</a></li>
+            <li><a href="#contact" id="nav_right_menu_Contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </nav>
+     @RenderBody()
+    <!--Footer After-->
+    <footer class="footer" >
+        
+        <div class="footer__bar" style="color: #B16002;">
+            ©2024 Tunu Tarnar Company Limited, All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function hideSlidesbar_2() {
+            document.getElementById("hamburger").click();
+        }
+        document.getElementById("hamburger").addEventListener("click", function () {
+            document.querySelector(".nav-links").style.width = "100%";
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active_right");
+            const btn_Close = document.querySelector(".btn_close_right_menu");
+            btn_Close.style.display = 'flex';
+            btn_Close.style.justifyContent = 'end';
+        });
+
+        document.getElementById("logo").addEventListener("click", function () {
+            location.reload();
+        });
+
+        // document.getElementById("nav_right_menu_About").addEventListener("click", function () {
+        //     alert("Ok !!!");
+        // });
+        
+
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

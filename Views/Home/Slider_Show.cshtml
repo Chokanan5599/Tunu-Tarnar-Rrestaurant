@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left and Right Style Display</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-sidebar, .right-sidebar {
+    background-color: #e7e7e7;
+    padding: 20px;
+    width: 20%; /* Adjust the width as needed */
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 60%; /* Adjust the width as needed */
+}
+
+@@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack vertically on small screens */
+    }
+
+    .left-sidebar, .right-sidebar, .main-content {
+        width: 100%; /* Full width for each section */
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-sidebar">
+            <h2>Left Sidebar</h2>
+            <p>This is the left sidebar content.</p>
+        </div>
+        <div class="main-content">
+            <h1>Main Content</h1>
+            <p>This is the main content area.</p>
+        </div>
+        <div class="right-sidebar">
+            <h2>Right Sidebar</h2>
+            <p>This is the right sidebar content.</p>
+        </div>
+    </div>
+</body>
+</html>
